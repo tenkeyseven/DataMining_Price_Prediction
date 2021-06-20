@@ -1,5 +1,6 @@
 # DataMining_Price_Prediction
 本仓库为「🚀 掘地求生」组2021数据挖掘课程大作业项目地址
+## 前期报告
 ### 问题描述
 
 #### 1、问题背景及分析
@@ -40,3 +41,25 @@
   RMSE是在MSE的基础之上开根号而来，RMSE越小表示模型越好，其定义如下：
 
 ![[公式]](https://www.zhihu.com/equation?tex=%5Clarge%7BRMSE%3D%5Csqrt%7B%5Cfrac%7B1%7D%7Bn%7D+%5Csum_%7Bi%3D1%7D%5En+%28y_i+-+%5Chat%7By%7D_i%29%5E2%7D%2C%5C%3B%5C%3B%5Cin%5B0%2C%2B%5Cinfty%29%7D%5C%3B%5C%3B%5C%3B%283%29+%5C%5C)
+
+## 最终报告
+
+最后形成的代码以及说明文件为：[lianjia_price_prediction.ipynb](./lianjia_price_prediction.ipynb)
+
+其中包括以下大致内容：
+
++ 数据分析与可视化部分
++ 房价预测-链家数据读取
++ 抽取相关特征
++ 对房价数据进行预测
+    + 使用线性回归方法
+    + 使用决策树方法
+
+本项目使用以下库以及对应的版本
+```bash
+python == 3.8
+numpy == 1.19.2 
+pandas == 1.2.3
+sklearn  == 0.2.4
+
+```
