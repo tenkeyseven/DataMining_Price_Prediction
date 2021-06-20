@@ -55,7 +55,33 @@
     + 使用线性回归方法
     + 使用决策树方法
 
-本项目使用以下库以及对应的版本
+项目结构说说明：
+```bash
+.
+├── LICENSE
+├── README.md
+├── data
+│   ├── lianjia1.csv
+│   ├── lianjia2.csv
+│   ├── lianjia3.csv
+│   ├── lianjia4.csv
+│   ├── lianjia5.csv
+│   ├── lianjia6.csv
+│   └── lianjia7.csv
+├── lianjia_price_prediction.ipynb
+├── processed_data
+│   └── lianjia1.csv
+└── utils
+    ├── lianjia_data_mining.ipynb
+    ├── lianjia_preprocess.ipynb
+    ├── preprocess.ipynb
+    └── visualization.ipynb
+
+4 directories, 15 files
+```
+其中，主代码文件为：[lianjia_price_prediction.ipynb](./lianjia_price_prediction.ipynb); data、processed_data 文件夹中为我们可视化以及数据处理使用的数据; utils文件夹中为我们项目过程中进行部分测试时用到的代码，与最终主代码文件[lianjia_price_prediction.ipynb](./lianjia_price_prediction.ipynb)没有直接联系。
+
+本项目使用以下库以及对应的版本 
 ```bash
 python == 3.8
 numpy == 1.19.2 
